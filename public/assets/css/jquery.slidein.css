@@ -1,0 +1,59 @@
+
+.slidein { background :#fff;
+overflow-y:scroll;
+ }
+.slidein-panel {
+  padding : 50px;/* don't add width or height, use 'breadth' widget option as it works for horz and vert */
+  text-align:center;
+}
+
+div.main {
+  position : absolute;
+  width : 80%;
+  height : 100%;
+  top : 0;
+  bottom : 0;
+  left : 0;
+  right : 0;
+  margin : auto;
+}
+
+div.buttons { margin : 10px; }
+
+div.buttons .ui-icon { display: none; }
+div.footer {
+  font-size : 12pt;
+  padding-top : 30px;
+}
+/*----------------------*/
+.slidein {
+    display: block;      /* don't change this */
+    position: fixed;  /* don't change this */
+    z-index: 10000;
+	border-left:1px solid #f6f6f6;
+}
+
+
+
+.slidein-handle {
+    overflow: hidden;  /* don't change this */
+    padding: 10px;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+	top:100px !important;
+	background:url(../images/cart.png) center center no-repeat #fff;
+	text-indent:9999px;
+	height:50px;
+	width:50px;
+	background-size:contain;
+	border-radius:0 !important;
+	border-width:inherit;
+	border-color:#1c8dc8 !important;
+	border-style: inherit !important;
+-webkit-box-shadow: -40px 7px 101px -35px rgba(13,15,16,1);
+-moz-box-shadow: -40px 7px 101px -35px rgba(13,15,16,1);
+box-shadow: -40px 7px 101px -35px rgba(13,15,16,1);
+	border:2px solid;
+	border-right:0;
+}
